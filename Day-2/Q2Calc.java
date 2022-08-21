@@ -3,7 +3,7 @@ class Calc
     public static void main(String args[])
     {
         float a=Float.parseFloat(args[0]);
-        float choice=Float.parseFloat(args[1]);
+        String choice=(args[1]);
         float b=Float.parseFloat(args[2]);
         switch (choice)
         {
