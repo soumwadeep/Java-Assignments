@@ -1,4 +1,4 @@
-class Calc
+class Q2Calc
 {
     public static void main(String args[])
     {
@@ -13,7 +13,7 @@ class Calc
             case "-":
                 System.out.print("Difference="+(a-b));
                 break;
-            case "*":
+            case "x":
                 System.out.print("Product="+(a*b));
                 break;
             case "/":
